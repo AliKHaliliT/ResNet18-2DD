@@ -1,0 +1,1 @@
+from .resnet18_2dd import ResNet182DD
