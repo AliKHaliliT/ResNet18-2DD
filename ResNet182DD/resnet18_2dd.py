@@ -61,7 +61,6 @@ class ResNet182DD(tf.keras.Model):
                                  normalization="batch_norm", activation="relu")
         self.stem3 = tf.keras.layers.MaxPool2D(pool_size=(2, 2), strides=(2, 2))
         
-
         # Backbone
         ## Stage 1
         self.block = Residual2DD(filters=64, strides=(1, 1))
