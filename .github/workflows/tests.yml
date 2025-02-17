@@ -1,10 +1,6 @@
 name: Tests
 
 on:
-  push:
-    paths:
-      - 'ResNet182DD/**'
-      - 'tests/**'
   pull_request:
     paths:
       - 'ResNet182DD/**'
