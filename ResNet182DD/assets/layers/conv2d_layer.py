@@ -178,7 +178,7 @@ class Conv2DLayer(tf.keras.layers.Layer):
         Returns
         -------
         output_shape : tuple
-            Shape of the output tensor after applying the Conv2Plus1D layer. 
+            Shape of the output tensor after applying the Conv2D layer. 
         
         """
 
